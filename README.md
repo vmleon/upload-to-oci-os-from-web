@@ -2,7 +2,7 @@
 
 Uploading to Oracle Cloud Object Storage directly from your web.
 
-## Why
+## Why
 
 As a user I want to upload pictures, PDF or any file into the system
 
@@ -10,7 +10,7 @@ Traditionally, the user would upload the file to the backend server that is resp
 
 This solution avoids the overhead on the backend server by creating a pre-authenticated request on Object Storage with an expiration time to enable the browser or mobile up to upload directly into Object Storage.
 
-## Diagram
+## Diagram
 
 This is how it looks like:
 
